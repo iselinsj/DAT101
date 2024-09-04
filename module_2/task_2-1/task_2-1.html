@@ -4,21 +4,34 @@
   <meta charset="UTF-8">
   <title>Submission 2.1</title>
 </head>
-<body>
-<script>
-  /* write your code below this line  🙂 */
+<body style="display: table-cell; vertical-align: middle">
+  <h1 id="myH"></h1>
+  <p id="myP"></p>
 
-let x = 12
-let y = 7
-let z = x + y
+  <h1 id="test1"></h1>
+  <p id="test2"></p>
+  
+  
+  <script>
 
-valuePI = 3.14;
+let x = 9;
+let y = 7;
+let z = x + y;
+let valuePI = 3.14;
+let teit = [x, y, z, valuePI];
 
-<p id="demo"></p>
-let carName = volvo 
-document.getElementById("demo").innerHTML = carName;
+  // Change heading:
+  document.getElementById("myH").innerHTML = "JavaScript Comments";
+  // Change paragraph:
+  document.getElementById("myP").innerHTML = "My first paragraph.";
+
+    // Change heading:
+  document.getElementById("test1").innerHTML = teit;
+  // Change paragraph:
+  document.getElementById("test2").innerHTML = "hei";
 
 
-</script>
+  </script>
+
 </body>
 </html>
